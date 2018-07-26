@@ -13,7 +13,7 @@ test('test sub function', function(t) {
     t.end();
 });
 
-test('test map function', function(t) {
+test('test map function - simple', function(t) {
     var o0 = {
         items: [
             {
@@ -28,7 +28,7 @@ test('test map function', function(t) {
     };
 
     var oExpected = {
-        items: [
+        ci: [
             {
                 mingzi: 'jon',
                 yanse: 'blue'
